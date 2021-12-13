@@ -1,6 +1,9 @@
 # travel-website-manage-server
 旅游网站的管理平台的服务端
 
+# 前言
+使用sql文件导入数据库
+
 # 安装依赖
 npm i
 
