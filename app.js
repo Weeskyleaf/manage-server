@@ -24,7 +24,7 @@ app.use('/travel/line', lineRouter);
 //     extended: true
 // }));
 
-/* 启动服务 */
+/* 启动服务，需要开放至公网服务器的话将'localhost'改为'0.0.0.0' */
 let server = app.listen(3055, 'localhost', () => {
     console.log("服务器开始监听3055端口...");
 });
